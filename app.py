@@ -38,7 +38,7 @@ def plot_advanced_sunspot_visualizations(df, sunactivity_col='SUNACTIVITY'):
     fig.suptitle("Sunspots Data Advanced Visualization", fontsize=18)
 
     # (a) 전체 시계열 라인 차트
-    axs[0, 0].plot(df.index, df[sunactivity_col], color='black')
+    axs[0, 0].plot(df.index, df[sunactivity_col], color='blue')
 
 
     axs[0, 0].set_title("Sunspot Activity Over Time")
